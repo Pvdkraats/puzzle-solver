@@ -172,7 +172,6 @@ export default function PuzzleSolver() {
 
   const highlightExtra = (base: string, extended: string) => {
     const baseLetters = base.split('')
-    const extra: string[] = []
     const display: JSX.Element[] = []
 
     for (let i = 0; i < extended.length; i++) {
